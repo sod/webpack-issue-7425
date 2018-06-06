@@ -1,0 +1,19 @@
+{
+  "name": "webpack-issue-7425",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prod": "webpack --watch --mode production & serve dist/",
+    "dev": "webpack --watch --mode development & serve dist/"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "rxjs": "^6.2.0",
+    "rxjs-compat": "^6.2.0",
+    "serve": "^8.0.0",
+    "webpack": "^4.11.1",
+    "webpack-cli": "^3.0.2"
+  }
+}
